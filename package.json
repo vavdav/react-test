@@ -1,0 +1,31 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node src/server/stageServer.js",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base dist"
+  },
+  "author": "DV",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.20",
+    "eslint": "^1.1.0",
+    "eslint-plugin-react": "^3.2.1",
+    "file-loader": "^0.8.4",
+    "grunt": "^0.4.5",
+    "react-hot-loader": "^1.2.8",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "flux": "^2.0.3",
+    "immutable": "^3.7.4",
+    "react": "^0.13.3"
+  }
+}
